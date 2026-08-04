@@ -1,0 +1,22 @@
+{
+  "best_val_acc": 0.8618,
+  "test_accuracy": 0.8618,
+  "test_precision": 0.8748,
+  "test_recall": 0.8618,
+  "test_f1": 0.8602,
+  "num_epochs": 30,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "fine_tune_mode": "full",
+  "num_classes": 102,
+  "train_samples": 1020,
+  "val_samples": 1020,
+  "test_samples": 6149,
+  "top_confused": [
+    ["class_9", "class_28", 6],
+    ["class_28", "class_9", 5],
+    ["class_54", "class_71", 4],
+    ["class_12", "class_43", 3],
+    ["class_71", "class_54", 3]
+  ]
+}
